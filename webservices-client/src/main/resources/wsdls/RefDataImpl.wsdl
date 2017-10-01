@@ -48,7 +48,7 @@
   </wsdl:binding>
   <wsdl:service name="RefDataImplService">
     <wsdl:port binding="tns:RefDataImplServiceSoapBinding" name="RefDataImplPort">
-      <soap:address location="http://localhost:8080/web-services/RefDataImpl"/>
+      <soap:address location="http://localhost:8080/webservices-server/RefDataImpl"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
